@@ -139,7 +139,7 @@ function handleCopyToClipBoard() {
         
     }
 }
-
+// TODO: create a toast message for the preset color pallet
 function handlePresetColorParent(event) {
     const child = event.target;
     if (child.className === 'color-box') {
@@ -147,6 +147,8 @@ function handlePresetColorParent(event) {
         copySound.play()
     }
 }
+
+
 
 
 //DOM function
